@@ -1,0 +1,109 @@
+/* CSS files add styling rules to your content */
+html {
+    height: 100%;
+  }
+  
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin: 0;
+    height: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #fff;
+    color: #484259;
+  }
+  
+  .heading {
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #cd0043;
+  }
+  
+    
+  
+  #header {
+    display: block;
+    color: #cd0043;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: #f2f2f0;
+    letter-spacing: 75px;
+  }
+#logo {
+display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+ 
+}
+#title {
+  display: inline-block;
+}
+
+section p {
+  padding: 120px;
+}
+  #body {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #content {
+    display: table-cell;
+    width: 80%;
+    vertical-align: top;
+    background-color: #f9f9f9;
+    
+   
+  }
+  #sidebar {
+	display: table-cell;
+	width: 20%;
+  vertical-align: top;
+  background-color: #f9f9f9;
+  border-left: dashed 1px #cd0043;
+    color: #484259;
+}
+#profile-pic {
+  width: 160px;
+ height: 160px;
+ margin: auto;
+
+}
+#my-info {
+  margin: auto;
+  margin-left: 50px;
+ 
+}
+footer > p {
+  text-align: center;
+  color: #cd0043;
+}
+  #footer {
+    background-color:#e6e6e6;
+    display: block;
+    clear: both;
+    position: relative;
+    bottom: 0; left: 0;
+    padding: 1rem;
+    
+  }
+  
+  #footer-button {
+    display: inline-block;
+    background: #cd0043;
+    color: #fff;
+    padding: 10px 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    align-content: center;
+    
+  }
+  
